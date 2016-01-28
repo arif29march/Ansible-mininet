@@ -1,0 +1,3 @@
+---
+- name: Restart Mininet
+  service: mininet state=restarted

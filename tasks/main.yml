@@ -1,0 +1,5 @@
+---
+- name: Ensure mininet is installed
+  apt: name=mininet state=present
+
+#  service: name=mininet state=started enabled=yes
